@@ -6,7 +6,7 @@ This project demonstrates end-to-end skills in **ASP.NET Core development**, **E
 
 ---
 
-## ✨ Features
+## Features
 
 - Upload documents via a simple web UI.
 - Extract text using:
@@ -24,7 +24,7 @@ This project demonstrates end-to-end skills in **ASP.NET Core development**, **E
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Backend**: ASP.NET Core 8 (Minimal API)  
 - **Database**: SQL Server 2022 (Docker) + EF Core ORM  
@@ -39,7 +39,7 @@ This project demonstrates end-to-end skills in **ASP.NET Core development**, **E
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 AIDocSummarizer/
 ├── .gitignore
 ├── AIDocSummarizer/
@@ -89,7 +89,7 @@ AIDocSummarizer/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone & restore
 
