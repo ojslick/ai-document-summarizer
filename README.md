@@ -4,6 +4,8 @@ A full-stack C#/.NET application that allows users to **upload documents** (`.tx
 
 This project demonstrates end-to-end skills in **ASP.NET Core development**, **Entity Framework Core**, **SQL Server**, **OpenAI API integration**, and **test-driven development**.
 
+![Demo](./images/demo.gif)
+
 ---
 
 ## Features
