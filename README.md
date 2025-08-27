@@ -1,6 +1,6 @@
 # AI Document Summarizer
 
-A full-stack C#/.NET application that allows users to **upload documents** (`.txt`, `.pdf`, `.docx`), automatically generates an **AI-powered summary**, and stores both the original text and summary in **SQL Server**.
+A full-stack C#/.NET application that allows users to **upload documents** (`.txt`, `.pdf`, `.docx`), automatically generates an **AI-powered summary**, and stores both the original text and summary in a database.
 
 This project demonstrates end-to-end skills in **ASP.NET Core development**, **Entity Framework Core**, **SQL Server**, **OpenAI API integration**, and **test-driven development**.
 
@@ -40,13 +40,15 @@ This project demonstrates end-to-end skills in **ASP.NET Core development**, **E
 ---
 
 ## Folder Structure
+
+```text
 AIDocSummarizer/
 ├── .gitignore
 ├── AIDocSummarizer/
 │   ├── AIDocSummarizer.csproj
 │   ├── Data/
 │   │   └── AppDbContext.cs
-│   ├── Migrations
+│   ├── Migrations/
 │   ├── Models/
 │   │   └── Document.cs
 │   ├── Program.cs
@@ -54,15 +56,7 @@ AIDocSummarizer/
 │   │   └── launchSettings.json
 │   ├── appsettings.Development.json
 │   ├── appsettings.json
-│   ├── bin/
-│   │   └── Debug/
-│   │       └── net9.0/
-│   │           └── [build and runtime files]
 │   ├── msbuild.binlog
-│   ├── obj/
-│   │   └── Debug/
-│   │       └── net9.0/
-│   │           └── [build files]
 │   ├── services/
 │   │   ├── DocumentTextExtractor.cs
 │   │   ├── IAiSummarizer.cs
@@ -76,16 +70,9 @@ AIDocSummarizer/
 │   ├── AiSummarizerTests.cs
 │   ├── DocumentTextExtractorTests.cs
 │   ├── UploadEndpointTests.cs
-│   ├── bin/
-│   │   └── Debug/
-│   │       └── net9.0/
-│   │           └── [test build files]
-│   └── obj/
-│       └── Debug/
-│           └── net9.0/
-│               └── [test build files]
 ├── AIDocSummarizer.sln
 └── README.md
+```
 
 ---
 
