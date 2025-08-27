@@ -1,1 +1,25 @@
-/AiDocSummarizer/.env
+# Build and output folders
+AIDocSummarizer/bin/
+AIDocSummarizer/obj/
+AIDocSummarizer.Tests/bin/
+AIDocSummarizer.Tests/obj/
+
+# User secrets, local environment files
+AIDocSummarizer/.env
+
+# Visual Studio/VS Code files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other generated files
+msbuild.binlog
